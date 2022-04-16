@@ -1,0 +1,71 @@
+/*################### NAVBAR ############################## */
+
+.navbar{
+    background: #ff5733;
+    margin-top:-2px;
+    overflow: hidden;
+    z-index: 5;
+    width:100%;
+}
+
+.nav-link{           /*seksionet brenda navbarit*/
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    z-index: 3;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+/* Navbari i kollapsuar */
+.toggler-btn{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    transition: 2s ease-in-out; 
+    outline: none;
+    text-decoration: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.icon-bar{  /* Vijat e collapse navbar */
+    width: 30px;
+    margin: 5px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-nav > li{  /* Hapesira ndermjet seksioneve  */
+    padding-left:5px;
+    padding-right:4px;
+}
+
+::placeholder {
+    color: #050305;
+    opacity: 1; 
+    background-color: #D2FF00;
+}
+
+/* Sticky navbar */
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+
+/*################### end of NAVBAR ############################## */
